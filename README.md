@@ -15,18 +15,18 @@ This project is an interactive web-based application built using Dash, Plotly, a
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/MNIST-Visualizer.git
-   cd MNIST-Visualizer
+   git clone git@github.com:RomainDeleat-besson/Dash_mnist.git
+   cd Dash_mnist
    ```
 
 2. Set up the environment (using conda or pip):
     ```
-    conda create --name mnist-visualizer python=3.9
+    conda create --name mnist-visualizer python=3.10
     conda activate mnist-visualizer
     pip install -r requirements.txt
     ```
 
-or for pip users:
+or for pip users: \
     ```
     python -m venv mnist-visualizer-env
     source mnist-visualizer-env/bin/activate
