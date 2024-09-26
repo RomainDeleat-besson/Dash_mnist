@@ -19,14 +19,15 @@ This project is an interactive web-based application built using Dash, Plotly, a
    cd Dash_mnist
    ```
 
-2. Set up the environment (using conda or pip):
+2. Set up the environment 
+    1. For conda users:
     ```
     conda create --name mnist-visualizer python=3.10
     conda activate mnist-visualizer
     pip install -r requirements.txt
     ```
 
-or for pip users: \
+    2. For pip users:
     ```
     python -m venv mnist-visualizer-env
     source mnist-visualizer-env/bin/activate
