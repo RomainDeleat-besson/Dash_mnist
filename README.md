@@ -14,7 +14,7 @@ This project is an interactive web-based application built using Dash, Plotly, a
 ## Installation
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/yourusername/MNIST-Visualizer.git
    cd MNIST-Visualizer
    ```
@@ -26,8 +26,42 @@ This project is an interactive web-based application built using Dash, Plotly, a
     pip install -r requirements.txt
     ```
 
+or for pip users:
+    ```
+    python -m venv mnist-visualizer-env
+    source mnist-visualizer-env/bin/activate
+    pip install -r requirements.txt
+    ```
 
+3. Run the app:
+    ```
+    python MNIST_Visualizer.py
+    ```
 
+4. Access the app in your web browser:
+    ```
+    http://127.0.0.1:8050/
+    ```
 
+## Requirements
 
-    
+- Python 3.9 or higher
+- Dash
+- Dash Bootstrap Components
+- Plotly
+- numpy
+- scikit-learn
+- umap-learn
+
+You can install all the dependencies via:
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+- Select the number of data points, reduction method (PCA, t-SNE, or UMAP), and the number of latent dimensions.
+- Choose whether to display the latent space in 2D or 3D.
+- Click on any point in the latent space to see the corresponding image.
+- View the distribution of MNIST labels in the histogram on the right.
+
